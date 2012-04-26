@@ -8,7 +8,7 @@ import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.ClickEvent;
 
 /**
- * This module is reproduces what looks like a Safari/JavaScriptCore bug when the module
+ * This module reproduces what looks like a Safari/JavaScriptCore bug when the module
  * is compiled without -draftCompile. Compilation style (i.e obfuscated/pretty/detailed) does
  * make a difference - obfuscated fails faster than detailed but both fail.
  *
